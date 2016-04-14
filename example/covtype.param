@@ -1,0 +1,41 @@
+#---  sample parameter file 
+#     Anything following "#" is considered to be a comment and ignored. 
+
+NoIntercept
+
+#---  training data and test data
+train_x_fn=../samples/data       # training data
+train_target_fn=../samples/label # training labels
+test_x_fn=../samples/data 	     # test data
+test_target_fn=../samples/label  # test labels
+DenseData
+Regression
+
+threads=1
+epoch=10000
+num_servers=0
+num_aggregator=1
+lock_option=2
+num_lock=100
+max_delay=0
+data_block_size=1000000000
+max_preload_data_size=1000000000
+dim=90
+class_num=1
+
+#---  training parameters 
+loss=Logistic      # Loss type square or logistic  
+svrg_interval=1    # Compute average gradient after every two iterations
+sgd_iterations=0   # Do one iteration of SGD before SVRG
+num_iterations=1  # Go through training data 30 times.  This includes both SGD and SVRG iterations. 
+random_seed=1      # Seed for randomization (used to generate the traning data sequence)
+learning_rate=0.1  # Learning rate
+lam=0           # L2 regularization parameter 
+
+#---  control when to display what 
+test_interval=1    # Test after every two iterations of SVRG
+ShowLoss           # Display training loss and test loss
+ShowTiming         # Display progress with time stamps
+
+#---  output predictions at the end of training 
+prediction_fn=output/covtype.prediction   # omit if no need for writing predictions 

@@ -1,0 +1,2564 @@
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsLmod.hpp:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsLmod.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp:20:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:22:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsLmod.hpp:22:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsLmod.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:22:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp:20:0:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:24:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp: In member function ‘void AzSmat::destroy(int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:286:24: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[col]; 
+                        ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:24:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsLmod.hpp:23,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsLmod.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp: In member function ‘void AzSmat::destroy(int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:286:24: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[col]; 
+                        ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp:21:0:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp: In member function ‘void AzSmat::destroy(int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:286:24: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[col]; 
+                        ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsLmod.hpp:23:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsLmod.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.cpp:19:0:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(int, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(int, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:23:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp: In member function ‘void AzSmat::destroy(int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:286:24: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[col]; 
+                        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp: In member function ‘void AzSmat::set(const AzReadOnlyMatrix*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp:121:21: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     delete column[cx]; column[cx] = NULL; 
+                     ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzDmat*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp: In member function ‘void AzSmat::set(const AzSmat*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp:139:23: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[cx]; 
+                       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzDmat*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In copy constructor ‘AzDmat::AzDmat(const AzDmat&)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp: In member function ‘void AzSmat::clear()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp:486:23: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[cx]; 
+                       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In copy constructor ‘AzDmat::AzDmat(const AzDmat&)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:24:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzReadOnlyMatrix*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzReadOnlyMatrix*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(int, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp: In member function ‘void AzSvect::multiply(double)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp:1032:12: warning: unused variable ‘new_val’ [-Wunused-variable]
+     double new_val = (double)elm[ex].val * val; 
+            ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzDmat*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp: In member function ‘double AzSvect::normalize1()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp:1228:14: warning: unused variable ‘new_val’ [-Wunused-variable]
+       double new_val = (double)elm[ex].val / sum; 
+              ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp: In member function ‘void AzSvect::load(AzIFarr*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp:1427:15: warning: unused variable ‘eyec’ [-Wunused-variable]
+   const char *eyec = "AzSvect::load"; 
+               ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In copy constructor ‘AzDmat::AzDmat(const AzDmat&)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzReadOnlyMatrix*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.cpp: In member function ‘void AzDmat::_set(const AzDmat*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.cpp:65:21: warning: deleting object of polymorphic class type ‘AzDvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     delete column[cx]; 
+                     ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:35:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.cpp:20:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzSvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzSvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:187:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     for (ix = 0; ix < num; ++ix) delete (*ptr)[ix]; 
+                                  ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.cpp: In member function ‘double* AzDmat::get(int) const’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.cpp:342:10: warning: address of local variable ‘weights’ returned [-Wreturn-local-addr]
+   double weights[dim];
+          ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:35:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsLmod.hpp:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsLmod.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzSvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzSvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:187:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     for (ix = 0; ix < num; ++ix) delete (*ptr)[ix]; 
+                                  ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzDvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzDvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:379:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzDvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.cpp: In member function ‘double AzDvect::innerProduct(const AzSvect*) const’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.cpp:1302:5: warning: unused variable ‘a’ [-Wunused-variable]
+ int a = vect1->rowNum();
+     ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:35:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzSvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzSvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:187:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     for (ix = 0; ix < num; ++ix) delete (*ptr)[ix]; 
+                                  ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzDvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzDvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:379:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzDvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:35:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzSvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzSvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:187:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     for (ix = 0; ix < num; ++ix) delete (*ptr)[ix]; 
+                                  ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzDvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzDvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:379:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzDvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzStrPool.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzStrPool.cpp:19:0:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp:22:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp:23:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp: In member function ‘void AzSmat::destroy(int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:286:24: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[col]; 
+                        ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp:24:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(int, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzDmat*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In copy constructor ‘AzDmat::AzDmat(const AzDmat&)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzReadOnlyMatrix*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.cpp:19:0:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp: In static member function ‘static double AzSvDataS::my_atof(const char*, const char*, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp:357:37: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+     if (*str == '\0' || *str >= '0' && *str <= '9' || 
+                                     ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp: In static member function ‘static int AzSvDataS::my_fno(const char*, const char*, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp:369:21: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+     if (*str >= '0' && *str <= '9' || 
+                     ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.cpp: In member function ‘void AzSvDataS::checkIfReady(const char*) const’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.cpp:41:27: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+       sp_f_dic.size() > 0 && sp_f_dic.size() != m_feat.rowNum()) {
+                           ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:35:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzSvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzSvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:187:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     for (ix = 0; ix < num; ++ix) delete (*ptr)[ix]; 
+                                  ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzDvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzDvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:379:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzDvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.cpp:20:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:22:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.cpp:20:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:23:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.cpp:20:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp: In member function ‘void AzSmat::destroy(int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:286:24: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[col]; 
+                        ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:24:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.cpp:20:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(int, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzDmat*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In copy constructor ‘AzDmat::AzDmat(const AzDmat&)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.cpp:22:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzReadOnlyMatrix*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.cpp:22:0:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.cpp: In member function ‘bool AzBytArr::beginsWith(AzBytArr*) const’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.cpp:1726:9: warning: statement has no effect [-Wunused-value]
+     true; 
+         ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:35:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.cpp:20:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzSvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzSvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:187:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     for (ix = 0; ix < num; ++ix) delete (*ptr)[ix]; 
+                                  ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzDvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzDvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:379:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzDvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.cpp: At global scope:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.cpp:25:12: warning: ‘th_autoSqueeze’ defined but not used [-Wunused-variable]
+ static int th_autoSqueeze = 1024; 
+            ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.h:8,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/parameter_loader.h:9,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/parameter_loader.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.h:8,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/parameter_loader.h:9,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/parameter_loader.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:23:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:17,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.h:8,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/parameter_loader.h:9,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/parameter_loader.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp: In member function ‘void AzSmat::destroy(int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:286:24: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[col]; 
+                        ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:24:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:17,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.h:8,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/parameter_loader.h:9,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/parameter_loader.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(int, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzDmat*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In copy constructor ‘AzDmat::AzDmat(const AzDmat&)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzReadOnlyMatrix*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.h:8,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/trainer.h:12,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/trainer.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/parameter_loader.h:12:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/parameter_loader.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp: In constructor ‘AzsSvrg::AzsSvrg(multiverso::svrg::Option*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:67:7: warning: ‘AzsSvrg::ite_num’ will be initialized after [-Wreorder]
+   int ite_num;       /* # of iterations */
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:62:10: warning:   ‘double AzsSvrg::momentum’ [-Wreorder]
+   double momentum; /* momentum */
+          ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:77:3: warning:   when initialized here [-Wreorder]
+   AzsSvrg(Option *option) : m_trn_x(NULL), m_tst_x(NULL), ia_trn_lab(NULL), ia_tst_lab(NULL), 
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.h:8,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/trainer.h:12,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/trainer.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:35:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.h:8,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/parameter_loader.h:9,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/parameter_loader.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzSvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzSvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:187:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     for (ix = 0; ix < num; ++ix) delete (*ptr)[ix]; 
+                                  ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzDvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzDvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:379:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzDvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/reader.h:5,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/reader.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:23:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:17,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.h:8,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/trainer.h:12,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/trainer.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp: In member function ‘void AzSmat::destroy(int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:286:24: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[col]; 
+                        ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/reader.h:5:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/reader.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:24:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:17,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.h:8,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/trainer.h:12,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/trainer.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(int, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzDmat*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In copy constructor ‘AzDmat::AzDmat(const AzDmat&)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzReadOnlyMatrix*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/reader.h:6:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/reader.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp: In member function ‘void AzSmat::destroy(int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:286:24: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[col]; 
+                        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/reader.h:7:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/reader.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(int, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzDmat*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In copy constructor ‘AzDmat::AzDmat(const AzDmat&)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/trainer.h:18:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/trainer.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp: In constructor ‘AzsSvrg::AzsSvrg(multiverso::svrg::Option*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:67:7: warning: ‘AzsSvrg::ite_num’ will be initialized after [-Wreorder]
+   int ite_num;       /* # of iterations */
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:62:10: warning:   ‘double AzsSvrg::momentum’ [-Wreorder]
+   double momentum; /* momentum */
+          ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:77:3: warning:   when initialized here [-Wreorder]
+   AzsSvrg(Option *option) : m_trn_x(NULL), m_tst_x(NULL), ia_trn_lab(NULL), ia_tst_lab(NULL), 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzReadOnlyMatrix*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/trainer.cpp: In member function ‘virtual void multiverso::svrg::Trainer::TrainIteration(multiverso::DataBlockBase*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/trainer.cpp:60:21: warning: unused variable ‘start’ [-Wunused-variable]
+             clock_t start = clock();
+                     ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:35:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.h:8,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/trainer.h:12,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/trainer.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzSvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzSvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:187:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     for (ix = 0; ix < num; ++ix) delete (*ptr)[ix]; 
+                                  ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzDvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzDvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:379:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzDvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/reader.h:8:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/reader.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp: In static member function ‘static double AzSvDataS::my_atof(const char*, const char*, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp:357:37: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+     if (*str == '\0' || *str >= '0' && *str <= '9' || 
+                                     ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp: In static member function ‘static int AzSvDataS::my_fno(const char*, const char*, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp:369:21: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+     if (*str >= '0' && *str <= '9' || 
+                     ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:35:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/reader.h:5,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/reader.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzSvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzSvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:187:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     for (ix = 0; ix < num; ++ix) delete (*ptr)[ix]; 
+                                  ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzDvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzDvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:379:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzDvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:22:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:23:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp: In member function ‘void AzSmat::destroy(int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:286:24: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[col]; 
+                        ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:24:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(int, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzDmat*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In copy constructor ‘AzDmat::AzDmat(const AzDmat&)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzReadOnlyMatrix*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.h:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.h:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:23:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:17,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.h:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp: In member function ‘void AzSmat::destroy(int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:286:24: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[col]; 
+                        ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.h:8,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:24:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:17,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.h:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(int, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.h:8,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzDmat*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In copy constructor ‘AzDmat::AzDmat(const AzDmat&)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzReadOnlyMatrix*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/parameter_loader.h:12:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.h:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp: In constructor ‘AzsSvrg::AzsSvrg(multiverso::svrg::Option*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:67:7: warning: ‘AzsSvrg::ite_num’ will be initialized after [-Wreorder]
+   int ite_num;       /* # of iterations */
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:62:10: warning:   ‘double AzsSvrg::momentum’ [-Wreorder]
+   double momentum; /* momentum */
+          ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:77:3: warning:   when initialized here [-Wreorder]
+   AzsSvrg(Option *option) : m_trn_x(NULL), m_tst_x(NULL), ia_trn_lab(NULL), ia_tst_lab(NULL), 
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:23:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:17,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.h:8,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp: In member function ‘void AzSmat::destroy(int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:286:24: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[col]; 
+                        ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:24:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:17,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.h:8,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/reader.h:8:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.h:27,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp: In static member function ‘static double AzSvDataS::my_atof(const char*, const char*, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp:357:37: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+     if (*str == '\0' || *str >= '0' && *str <= '9' || 
+                                     ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(int, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp: In static member function ‘static int AzSvDataS::my_fno(const char*, const char*, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp:369:21: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+     if (*str >= '0' && *str <= '9' || 
+                     ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzDmat*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In copy constructor ‘AzDmat::AzDmat(const AzDmat&)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.cpp: In member function ‘void multiverso::svrg::Distributed_svrg::Train(int, char**)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.cpp:79:30: warning: deleting object of polymorphic class type ‘AzsSvrg’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+             delete AzsSvrgs[0];
+                              ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.cpp:80:30: warning: deleting object of polymorphic class type ‘AzsSvrg’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+             delete AzsSvrgs[1];
+                              ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzReadOnlyMatrix*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.cpp: In member function ‘void multiverso::svrg::Distributed_svrg::PrepareMultiversoParameterTables()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.cpp:92:17: warning: unused variable ‘proc_count’ [-Wunused-variable]
+             int proc_count = multiverso::Multiverso::TotalProcessCount();
+                 ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:35:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.h:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzSvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzSvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:187:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     for (ix = 0; ix < num; ++ix) delete (*ptr)[ix]; 
+                                  ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzDvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzDvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:379:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzDvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:35:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.h:8,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/data_block.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzSvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzSvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:187:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     for (ix = 0; ix < num; ++ix) delete (*ptr)[ix]; 
+                                  ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzDvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzDvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:379:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzDvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.cpp:19:0:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp: In constructor ‘AzsSvrg::AzsSvrg(multiverso::svrg::Option*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:67:7: warning: ‘AzsSvrg::ite_num’ will be initialized after [-Wreorder]
+   int ite_num;       /* # of iterations */
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:62:10: warning:   ‘double AzsSvrg::momentum’ [-Wreorder]
+   double momentum; /* momentum */
+          ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:77:3: warning:   when initialized here [-Wreorder]
+   AzsSvrg(Option *option) : m_trn_x(NULL), m_tst_x(NULL), ia_trn_lab(NULL), ia_tst_lab(NULL), 
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:24:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In member function ‘void AzsSvrg::_train_test()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:694:17: error: ‘const AzDmat* AzDSmat::md’ is protected
+   const AzDmat *md; 
+                 ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.cpp:84:38: error: within this context
+       double x_scale = sqrt(m_trn_x->md->col(dx).squareSum());
+                                      ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.cpp:84:50: error: request for member ‘squareSum’ in ‘((const AzDmat*)((AzsSvrg*)this)->AzsSvrg::m_trn_x->AzDSmat::md)->AzDmat::col(dx)’, which is of pointer type ‘const AzDvect*’ (maybe you meant to use ‘->’ ?)
+       double x_scale = sqrt(m_trn_x->md->col(dx).squareSum());
+                                                  ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.cpp: In member function ‘void AzsSvrg::show_perf(int) const’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.cpp:248:39: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+       myite >= 0 && test_interval > 0 && myite%test_interval == 0) {
+                                       ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:35:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:22,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.cpp:19:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzSvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzSvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:187:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     for (ix = 0; ix < num; ++ix) delete (*ptr)[ix]; 
+                                  ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzDvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzDvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:379:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzDvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+make: *** [/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:23:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:17,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp: In member function ‘void AzSmat::destroy(int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:286:24: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[col]; 
+                        ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:24:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:17,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(int, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzDmat*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In copy constructor ‘AzDmat::AzDmat(const AzDmat&)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzReadOnlyMatrix*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.cpp: In member function ‘void multiverso::svrg::Option::parseArgs(const char*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.cpp:160:29: warning: unused variable ‘fn’ [-Wunused-variable]
+                 const char *fn = param+1; 
+                             ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:35:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.cpp:1:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzSvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzSvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:187:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     for (ix = 0; ix < num; ++ix) delete (*ptr)[ix]; 
+                                  ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzDvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzDvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:379:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzDvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:36:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/main.cpp:13:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp: In constructor ‘AzOut::AzOut()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:27:12: warning: ‘AzOut::o’ will be initialized after [-Wreorder]
+   ostream *o; 
+            ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:24:8: warning:   ‘bool AzOut::isActive’ [-Wreorder]
+   bool isActive; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzOut.hpp:29:10: warning:   when initialized here [-Wreorder]
+   inline AzOut() : o(NULL), isActive(true), level(0) {}
+          ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/main.cpp:13:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:456:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr() : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp: In constructor ‘AzIIFarr::AzIIFarr(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:541:16: warning: ‘AzIIFarr::ent’ will be initialized after [-Wreorder]
+   AzIIFarrEnt *ent; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:539:16: warning:   ‘AzIIFarrType AzIIFarr::ent_type’ [-Wreorder]
+   AzIIFarrType ent_type; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:469:3: warning:   when initialized here [-Wreorder]
+   AzIIFarr(AzFile *file) : ent_num(0), ent(NULL), ent_type(AzIIFarr_IIF) {
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:23:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:17,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/main.cpp:13:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp: In member function ‘void AzSmat::destroy(int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:286:24: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+       delete column[col]; 
+                        ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzTools.hpp:24:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzParam.hpp:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:17,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/main.cpp:13:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat()’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:384:3: warning:   when initialized here [-Wreorder]
+   AzDmat() : row_num(0), col_num(0), column(NULL), isLocked(false) {}
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(int, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:385:3: warning:   when initialized here [-Wreorder]
+   AzDmat(int row_num, int col_num) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzDmat*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:389:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat *inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In copy constructor ‘AzDmat::AzDmat(const AzDmat&)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:412:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzDmat &inp) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(const AzReadOnlyMatrix*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:422:3: warning:   when initialized here [-Wreorder]
+   AzDmat(const AzReadOnlyMatrix *inp) /* copy */
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp: In constructor ‘AzDmat::AzDmat(AzFile*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:16: warning: ‘AzDmat::row_num’ will be initialized after [-Wreorder]
+   int col_num, row_num; 
+                ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:371:7: warning:   ‘int AzDmat::col_num’ [-Wreorder]
+   int col_num, row_num; 
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:372:13: warning: ‘AzDmat::column’ will be initialized after [-Wreorder]
+   AzDvect **column;  /* updated only through AzPtrArray functions */
+             ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:370:8: warning:   ‘bool AzDmat::isLocked’ [-Wreorder]
+   bool isLocked; 
+        ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:431:3: warning:   when initialized here [-Wreorder]
+   AzDmat(AzFile *file) 
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/reader.h:8:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/main.cpp:14:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp: In static member function ‘static double AzSvDataS::my_atof(const char*, const char*, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp:357:37: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+     if (*str == '\0' || *str >= '0' && *str <= '9' || 
+                                     ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp: In static member function ‘static int AzSvDataS::my_fno(const char*, const char*, int)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSvDataS.hpp:369:21: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+     if (*str >= '0' && *str <= '9' || 
+                     ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/parameter_loader.h:12:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/distributed_svrg.h:25,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/main.cpp:17:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp: In constructor ‘AzsSvrg::AzsSvrg(multiverso::svrg::Option*)’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:67:7: warning: ‘AzsSvrg::ite_num’ will be initialized after [-Wreorder]
+   int ite_num;       /* # of iterations */
+       ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:62:10: warning:   ‘double AzsSvrg::momentum’ [-Wreorder]
+   double momentum; /* momentum */
+          ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzsSvrg.hpp:77:3: warning:   when initialized here [-Wreorder]
+   AzsSvrg(Option *option) : m_trn_x(NULL), m_tst_x(NULL), ia_trn_lab(NULL), ia_tst_lab(NULL), 
+   ^
+In file included from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzUtil.hpp:35:0,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/util.h:16,
+                 from /vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/main.cpp:13:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzSvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzSvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzSmat.hpp:187:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzSvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+     for (ix = 0; ix < num; ++ix) delete (*ptr)[ix]; 
+                                  ^
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp: In instantiation of ‘static void AzPMemTools::free(T***, int) [with T = AzDvect]’:
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:223:32:   required from ‘void AzObjPtrArray<T>::free(T***, const char*, const char*) [with T = AzDvect]’
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzDmat.hpp:379:19:   required from here
+/vol6/home/kd_yjp/myw/DMTK/distributed_svrg/src/AzMemTempl.hpp:146:34: warning: deleting object of polymorphic class type ‘AzDvect’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
