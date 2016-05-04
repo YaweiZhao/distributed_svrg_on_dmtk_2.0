@@ -13,9 +13,9 @@ namespace multiverso
             parse_and_request_count_ = 0;
 
             //the log which will store the begin and end time of ParseAndRequest
-            char log_name[100];
-            sprintf(log_name, "parameter_loader%s.txt", g_log_suffix.c_str());
-            log_file_ = fopen(log_name, "w");
+            //char log_name[100];
+            //sprintf(log_name, "parameter_loader_%d.txt", /*g_log_suffix.c_str()*/ multiverso::Multiverso::ProcessRank());
+            //log_file_ = fopen(log_name, "w");
         }
 	
         void ParameterLoader::ParseAndRequest(
@@ -26,7 +26,7 @@ namespace multiverso
                 start_ = clock();
             }
 
-            fprintf(log_file_, "%lf\n", (clock()) / (double)CLOCKS_PER_SEC);
+            //fprintf(log_file_, "%lf\n", (clock()) / (double)CLOCKS_PER_SEC);
             multiverso::Log::Info("Rank %d ParameterLoader begin %d\n",
                 multiverso::Multiverso::ProcessRank(), parse_and_request_count_);
             ++parse_and_request_count_;
@@ -34,8 +34,8 @@ namespace multiverso
             // Request the parameter
             RequestTable(kWeightTableId);           
 
-            fprintf(log_file_, "%lf\n", (clock()) / (double)CLOCKS_PER_SEC);
-            fflush(log_file_);
+            //fprintf(log_file_, "%lf\n", (clock()) / (double)CLOCKS_PER_SEC);
+            //fflush(log_file_);
         } 
     }
 }

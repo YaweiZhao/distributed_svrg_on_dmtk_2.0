@@ -131,6 +131,7 @@ public:
   void scale(const double *vect1); 
 
   double selfInnerProduct() const; 
+  inline double squareSum() const { return selfInnerProduct(); }
 
   double normalize(); 
   double normalize1(); 

@@ -29,11 +29,6 @@ void AzsSvrg::_train_test()
   stringstream fn_wait;
   fn_wait<<"wait_time"<<multiverso::Multiverso::ProcessRank()<<".txt";
   AzTimeLog::print2Logfile(s_wait_time.str().c_str(),fn_wait.str().c_str(),"a+");
-  stringstream s_asy;
-  s_asy<<fast<<" "<<slow<<"\n";
-  stringstream fn_asy;
-  fn_asy<<"asy"<<multiverso::Multiverso::ProcessRank()<<".txt";
-  AzTimeLog::print2Logfile(s_asy.str().c_str(),fn_asy.str().c_str(),"a+");
   /*---  iterate ... ---*/
   AzTimeLog::print("---  Training begins ... ", log_out); 
   AzsSvrgData_fast prev_fast; 
@@ -43,13 +38,11 @@ void AzsSvrg::_train_test()
   //time_t time_start,time_end;
   clock_t tick_start,tick_end;
   double cost_time=0;
-  int base_inner_loop=1000;
+  int base_inner_loop=100000;
   int num_inner_loop=base_inner_loop;
-  double min=std::min(0.05,wait_time);
+  double min=std::min(0.5,wait_time);
   if(wait_time>0) num_inner_loop+=base_inner_loop*min;
   for (ite = 0; ite < ite_num; ++ite) {
-    eta=0.1;
-    double eta_base=eta;
     //char ite_count[4];
     //sprintf(ite_count,"%d",ite);
     //str1 = "\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>";
@@ -73,6 +66,7 @@ void AzsSvrg::_train_test()
     const int *dxs = gen_seq(dataSize(), ia_dxs);   
     int ix; 
     //for (ix = 0; ix < dataSize(); ++ix) {//original settings
+    double eta_base = eta;
     tick_start=clock();
     for(ix=0;ix<num_inner_loop;ix++){// we observe that the loss will not decrease when the inner loop runs for 1000 rounds   
       int dx = dxs[ix];  /* data point index */
@@ -89,11 +83,11 @@ void AzsSvrg::_train_test()
         else            updateDelta_svrg_fast(dx, &v_deriv, prev_fast); 
       }
       else {
-        //flushDelta();
-        break;
+        flushDelta();
+        //break;
         //updateDelta_sgd(dx, &v_deriv);       
       }
-      //flushDelta();
+      flushDelta();
       //time(&time_end);
       //cost_time+=(time_end-time_start);
       /*log each update and the value of loss function*/
@@ -118,17 +112,13 @@ void AzsSvrg::_train_test()
       //AzTimeLog::printDouble2Logfile(weights, dim,"weights_log.txt","a+");
       
       double eta_speedup=0;
-      double scale_x;
-      if (m_trn_x->md != NULL)
-	scale_x=sqrt(m_trn_x->md->col(dx)->squareSum());
-      else
-	scale_x=sqrt(m_trn_x->ms->col(dx)->squareSum());
+      double scale_x=sqrt(m_trn_x->md->col(dx)->squareSum());
       eta_speedup=scale_x*fabs(v_deriv.get(0));
-      cout<<"scale_x:"<<scale_x<<"v_deriv.get(0)"<<v_deriv.get(0)<<endl;
-      cout<<">>>eta_base:"<<eta_base<<">>>>>>>>>>>>>eta_speedup:"<<eta_speedup<<endl;
+      //cout<<"scale_x:"<<scale_x<<"v_deriv.get(0)"<<v_deriv.get(0)<<endl;
+      //cout<<">>>eta_base:"<<eta_base<<">>>>>>>>>>>>>eta_speedup:"<<eta_speedup<<endl;
       eta = (eta_speedup+1)*eta_base;//lam_base must be smaller than L because of  L-smooth
       //time(&time_start);
-      flushDelta(); 
+      //flushDelta(); 
       //time(&time_end);
       //cost_time+=(time_end-time_start);
     }
@@ -145,9 +135,7 @@ void AzsSvrg::_train_test()
     AzTimeLog::print2Logfile(s.str().c_str(),name.str().c_str(),"a+");
     double loss_1=0;
     char loss_str[32];
-    //double loss = get_loss_regress(m_trn_x, v_trn_y, &loss_1);//for regression optimization
-    double loss = 0;
-    loss = get_loss_classif(m_trn_x, ia_trn_lab, &loss_1);//for classification optimization 
+    double loss = get_loss_regress(m_trn_x, v_trn_y, &loss_1);
     sprintf(loss_str,"%f",loss);
     str3 = "\n";
     string str_temp = loss_str+str3;
@@ -529,8 +517,7 @@ void AzsSvrg::init(DataBlock *data_block)
   else {
     /*---  check and set training labels  ---*/
     set_labels(v_trn_y, _ia_trn_lab); 
-    //class_num = _ia_trn_lab.max() + 1;
-    class_num = option_->class_num == 1 ? 2 : option_->class_num; 
+    class_num = _ia_trn_lab.max() + 1; 
 
     /*---  check test labels  ---*/
     set_labels(v_tst_y, _ia_tst_lab); 

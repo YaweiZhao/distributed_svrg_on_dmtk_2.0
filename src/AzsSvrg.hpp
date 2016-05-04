@@ -44,7 +44,7 @@ public:
 };
 
 class AzsSvrg : public virtual /* extends */ AzsLmod {
-protected:
+public:
   const AzDSmat *m_trn_x, *m_tst_x; /* pointers to the data point matrices */
   const AzIntArr *ia_trn_lab, *ia_tst_lab;  /* pointers to the labels */
   const AzDvect *v_trn_y, *v_tst_y; 
@@ -91,13 +91,15 @@ public:
   void GetWeight(std::vector<real*> &blocks);
   void set_labels(const AzDvect *v_mc, AzIntArr &ia_lab) const;
                   
-protected:   
+public:   
   int dataSize() const { return (m_trn_x == NULL) ? 0 : m_trn_x->colNum(); }
   bool doing_svrg(int ite) const { return (svrg_interval > 0 && ite >= sgd_ite) ? true : false; }
   bool doing_classif() const { return (ia_trn_lab != NULL); }
   
   void reset_weights(int dim); 
 
+  void updateDelta_sgd(const AzsSvrgData_compact &prev);
+  void updateDelta_sgd(const AzsSvrgData_fast &prev);
   void updateDelta_sgd(int dx, const AzDvect *v_deriv); 
   void flushDelta(); 
   double regloss(int col=-1) const; 

@@ -61,7 +61,7 @@ namespace multiverso
             multiverso::Multiverso::Init(trainers, parameter_loader, config, &argc, &argv);
 
             char log_name[100];
-            sprintf(log_name, "log%s.txt", g_log_suffix.c_str());
+            sprintf(log_name, "log_%d.txt", /*g_log_suffix.c_str()*/ multiverso::Multiverso::ProcessRank());
             multiverso::Log::ResetLogFile(log_name);
 
             //Mark the node machine number
@@ -140,22 +140,24 @@ namespace multiverso
                 file_size, option_->data_block_size);
             start_ = clock();
             multiverso::Multiverso::BeginTrain();
+            DataBlock *data_block = new (std::nothrow)DataBlock();
+            assert(data_block != nullptr);
             for (int cur_epoch = 0; cur_epoch < option_->epoch; ++cur_epoch)
             {
                 //reader_->ResetStart();
                 multiverso::Multiverso::BeginClock();
-                for (int64 cur = 0; cur < file_size; cur += option_->data_block_size)   
-                {
-                    ++data_block_count;
-                    DataBlock *data_block = new (std::nothrow)DataBlock();
-                    assert(data_block != nullptr);
-                    //Load the sentences from train file, and store them in data_block
-                    clock_t start = clock();
-                    LoadData(data_block, reader_, option_->data_block_size);
-                    multiverso::Log::Info("LoadOneDataBlockTime:%lfs\n",
-                        (clock() - start) / (double)CLOCKS_PER_SEC);
-                    PushDataBlock(datablock_queue, data_block);
+                ++data_block_count; 
+                if (cur_epoch == 0) {
+                    //for (int64 cur = 0; cur < file_size; cur += option_->data_block_size)   
+                    //{                      
+                        //Load the samples from train file, and store them in data_block
+                        clock_t start = clock();
+                        LoadData(data_block, reader_, option_->data_block_size);
+                        multiverso::Log::Info("LoadOneDataBlockTime:%lfs\n",
+                            (clock() - start) / (double)CLOCKS_PER_SEC);
+                    //}
                 }
+                PushDataBlock(datablock_queue, data_block);
                 multiverso::Multiverso::EndClock();
             }
 
@@ -211,14 +213,14 @@ namespace multiverso
             
             datablock_queue.push(data_block);
             //limit the max size of total datablocks to avoid out of memory
-            while (static_cast<int64>(datablock_queue.size()) * option_->data_block_size
+            /*while (static_cast<int64>(datablock_queue.size()) * option_->data_block_size
                 > option_->max_preload_data_size)
             {
                 std::chrono::milliseconds dura(200);
                 std::this_thread::sleep_for(dura);
                 //Remove the datablock which is delt by parameterloader and trainer
                 RemoveDoneDataBlock(datablock_queue);
-            }
+            }*/
         }
 
         //Remove the datablock which is delt by parameterloader and trainer
